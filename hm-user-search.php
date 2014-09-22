@@ -1,11 +1,11 @@
 <?php
 /*
-Plugin Name: Hm-user-search
+Plugin Name: Human Made Limited
 Version: 0.1-alpha
-Description: PLUGIN DESCRIPTION HERE
-Author: YOUR NAME HERE
-Author URI: YOUR SITE HERE
-Plugin URI: PLUGIN SITE HERE
+Description: Search users by first and last name
+Author: Human Made Limited
+Author URI: https://hmn.md
+Plugin URI: https://hmn.md
 Text Domain: hm-user-search
 Domain Path: /languages
 */
