@@ -59,7 +59,7 @@ final class HM_User_Search {
 		// Add a custom query_var for checking purposes.
 		$user_query_instance->query_vars['hm_user_search'] = true;
 
-		$user_query_instance->query_vars['meta_query'] = array(
+		$user_query_instance->query_vars['meta_query'] = apply_filters( 'hm_user_search_meta_queries', array(
 			'relation' => 'OR',
 			array(
 				'key'     => 'first_name',
@@ -76,7 +76,7 @@ final class HM_User_Search {
 				'value'   => $search_term,
 				'compare' => 'LIKE'
 			)
-		);
+		) );
 
 		return $user_query_instance;
 
