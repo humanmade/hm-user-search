@@ -1,6 +1,6 @@
-=== Hm-user-search ===
+=== Extended User Search ===
 Contributors: humanmade, pauldewouters
-Tags: comments, spam
+Tags: users, search, dashboard, admin
 Requires at least: 3.8.4
 Tested up to: 4.0
 Stable tag: 0.1-alpha
